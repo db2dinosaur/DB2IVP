@@ -1,0 +1,26 @@
+README
+This project is an example Jenkinsfile to drive a DB2 for z/OS IVP using a Jenkins node configured with the IBM z/OS Open Automation (ZOA) Utilities. It uses the SubmitAndTrack repo (db2dinosaur/SubmitAndTrack) as a Jenkins shared library.
+
+We use a single parameter (the IVP JCL dataset). Job in the IVP that are run:
+* DSNTEJ0
+* DSNTEJ1
+* DSNTEJ1P
+* DSNTEJ1S
+* DSNTEJ1U
+* DSNTEJ2A
+* DSNTEJ2C
+* DSNTEJ2D
+* DSNTEJ2E
+* DSNTEJ2H
+* DSNTEJ2P
+* DSNTEJ2U
+* Bespoke DSNTEP2 job to execute DSNTESA, DSNTESC and DSNTESE
+* DSNTEJ3C
+* DSNTEJ3M
+* DSNTEJ3P
+* DSNTEJ6U
+* DSNTEJ6Z
+* DSNTEJ7
+* DSNTEJ71
+
+JG 26/10/2021
